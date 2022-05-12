@@ -28,9 +28,7 @@ const Hero = () => {
             Fight climate change and earn rewards with AIR, a digital currency
             backed by real carbon assets.
           </p>
-          <button className="enter-btn flex mt-10 md:hidden text-sm font-bold py-3 leading-6 px-7 bg-green text-white rounded">
-            ENTER APP
-          </button>
+          <br></br>
         </div>
 
         <img
