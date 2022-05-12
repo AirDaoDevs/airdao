@@ -529,6 +529,7 @@ const WalletSelect = () => {
               display: selectedNetwork === 'FANTOM' ? 'flex' : 'none',
               gap: '20px',
             }}
+            className="flex-wrap w-full md:flex-nowrap flex items-center justify-center"
           >
             <div className="flex flex-col justify-center items-center">
               <img

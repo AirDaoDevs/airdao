@@ -2,7 +2,7 @@ import React from 'react'
 import cars from '../../assets/cars.jpg'
 import gasolina from '../../assets/gasolina.jpg'
 import forest from '../../assets/forest.jpg'
-import burningForest from '../../assets/burning.jpg'
+import burningForest from '../../assets/act.jpg'
 const CarbonAbsorbed = () => {
   return (
     <div className=" pt-44 bg-white dark:bg-light-dark">

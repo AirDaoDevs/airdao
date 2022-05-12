@@ -3,7 +3,7 @@ import './App.css'
 import Main from './components/Main/Main'
 import Header from './components/Main/Header'
 import './style.scss'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Buy from './components/Main/Buy/Buy'
 import Footer from './components/Main/Footer'
 
