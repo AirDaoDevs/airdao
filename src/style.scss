@@ -1,0 +1,12 @@
+.nav-anim {
+    animation: right-in 0.5s alternate 1;
+}
+
+@keyframes right-in {
+    from {
+        transform: translateX(800px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

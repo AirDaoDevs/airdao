@@ -1,0 +1,9 @@
+import React from 'react'
+
+const CoinSelect = () => {
+  return (
+	<div>nmn</div>
+  )
+}
+
+export default CoinSelect

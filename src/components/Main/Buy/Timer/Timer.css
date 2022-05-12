@@ -1,0 +1,90 @@
+/**
+*
+* Testing
+*
+**/
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  .timer {
+    width: 500px;
+    flex-direction: column;
+  }
+  .timer .dots {
+    display: none;
+  }
+}
+
+.timer .first-dots {
+  margin-right: 13px;
+  margin-left: 7px;
+}
+
+.timer .dots {
+  width: 4px;
+  height: 14px;
+  margin-right: 13px;
+}
+
+.timer .time-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.timer .time-display:first-child {
+  margin-right: 15px;
+}
+
+.timer .time-display .time-container {
+  margin-bottom: 10px;
+}
+
+.timer .time-display .time-container .time-number div span {
+  margin-right: 6px;
+}
+
+.timer .time-display .time-container .time-number span {
+  border-radius: 10px;
+  font-size: 110px;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .timer .time-display .time-container .time-number span {
+    padding: 3px 5px 3px 5px;
+    font-size: 42px;
+  }
+  .timer .time-display:first-child {
+    margin-right: 0px;
+  }
+  .timer {
+    width: fit-content;
+  }
+}
+
+.timer .time-display .time-container font {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Timer.css.map */
