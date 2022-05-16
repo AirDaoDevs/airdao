@@ -26,6 +26,7 @@ import inch from '../../../assets/t0.svg'
 import curve from '../../../assets/t1.svg'
 import yfi from '../../../assets/t2.svg'
 import aave from '../../../assets/t4.png'
+import fUSD from '../../../assets/fUSD.png'
 const WalletSelect = () => {
   const [selectedNetwork, setSelectedNetwork] = useState('')
   const [sentence0, setSentence0] = useState('AirDAO Sacrifice')
@@ -288,17 +289,6 @@ const WalletSelect = () => {
               <span className="text-black dark:text-white">USDC</span>
             </div>
             <br></br>
-
-            <div className="flex flex-col justify-center items-center">
-              <img
-                className="w-4"
-                style={{ width: '32px' }}
-                src={luna}
-                alt="LUNA"
-              />
-              <span className="text-black dark:text-white">LUNA</span>
-            </div>
-            <br></br>
           </div>
           <div
             style={{
@@ -326,16 +316,6 @@ const WalletSelect = () => {
                 alt="USDT"
               />
               <span className="text-black dark:text-white">USDT</span>
-            </div>
-            <br></br>
-            <div className="flex flex-col justify-center items-center">
-              <img
-                className="w-4"
-                style={{ width: '32px' }}
-                src={hex}
-                alt="HEX"
-              />
-              <span className="text-black dark:text-white">HEX</span>
             </div>
             <br></br>
             <div className="flex flex-col justify-center items-center">
@@ -541,16 +521,7 @@ const WalletSelect = () => {
               <span className="text-black dark:text-white">FTM</span>
             </div>
             <br></br>
-            <div className="flex flex-col justify-center items-center">
-              <img
-                className="w-4"
-                style={{ width: '32px' }}
-                src={inch}
-                alt="FTM"
-              />
-              <span className="text-black dark:text-white">1INCH</span>
-            </div>
-            <br></br>
+
             <div className="flex flex-col justify-center items-center">
               <img
                 className="w-4"
@@ -576,10 +547,10 @@ const WalletSelect = () => {
               <img
                 className="w-4"
                 style={{ width: '32px' }}
-                src={usdt}
+                src={fUSD}
                 alt=""
               />
-              <span className="text-black dark:text-white">USDT</span>
+              <span className="text-black dark:text-white">fUSD</span>
             </div>
             <br></br>
 

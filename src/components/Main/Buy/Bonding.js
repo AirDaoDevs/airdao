@@ -114,22 +114,20 @@ const Bonding = () => {
               On <font color="#d5de26">ETHEREUM:</font>
             </b>
             <br></br>
-            ETH, USDT, HEX, DAI, MATIC, wBTC, FTM, AAVE, 1INCH, CRV, YFI, USDC,
-            LUNA
+            ETH, USDT, HEX, DAI, MATIC, wBTC, FTM, AAVE, 1INCH, CRV, YFI, USDC
             <br></br>
             <br></br>
             <b>
               On <font color="#d5de26">BINANCE SMART CHAIN:</font>
             </b>
-            <br></br> BNB, USDT, HEX, DAI, TRX, ETH, DOT, XRP, BTCB, USDC, BCH,
-            DOGE
+            <br></br> BNB, USDT, DAI, TRX, ETH, DOT, XRP, BTCB, USDC, BCH, DOGE
             <br></br>
             <br></br>
             <b>
               On <font color="#d5de26">FANTOM:</font>
             </b>
             <br></br>
-            FTM, 1INCH, CRV, YFI, USDT, wBTC, USDC, WETH, DAI
+            FTM, CRV, YFI, fUSD, wBTC, USDC, WETH, DAI
             <br></br>
             <br></br>
             <b>

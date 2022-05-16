@@ -9,10 +9,10 @@ const Hero = () => {
           📰 LATEST NEWS:
           <a
             className="text-green ml-2 underline text-left"
-            href="https://medium.com/@PulseAirDAO/introducing-air-an-algorithmic-carbon-backed-currency-699362c5c288"
+            href="https://medium.com/@PulseAirDAO/introducing-air-a-liquidity-engine-for-the-carbon-markets-44279bd444e6"
             target="_blank"
           >
-            Pulse AirDAO, an algorithmic carbon-backed currency
+            Introducing AIR, a liquidity engine for the carbon markets
           </a>
         </span>
       </div>
