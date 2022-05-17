@@ -27,6 +27,7 @@ import curve from '../../../assets/t1.svg'
 import yfi from '../../../assets/t2.svg'
 import aave from '../../../assets/t4.png'
 import fUSD from '../../../assets/fUSD.png'
+import BUSD from '../../../assets/BUSD.png'
 const WalletSelect = () => {
   const [selectedNetwork, setSelectedNetwork] = useState('')
   const [sentence0, setSentence0] = useState('AirDAO Sacrifice')
@@ -40,9 +41,17 @@ const WalletSelect = () => {
 
   const checkData = () => {
     const now = new Date()
-    const _now = now.setSeconds(now.getSeconds())
+    // const _now = now.setSeconds(now.getSeconds())
+    const _now = Math.floor(new Date() / 1000)
     // const _now = 1653947000
-
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
+    console.log(_now)
     if (_now <= 1652738400) {
       //? 17/05/22
       //*Sacrifice Starts in..
@@ -305,6 +314,17 @@ const WalletSelect = () => {
                 alt="BNB"
               />
               <span className="text-black dark:text-white">BNB</span>
+            </div>
+            <br></br>
+
+            <div className="flex flex-col justify-center items-center">
+              <img
+                className="w-4"
+                style={{ width: '32px' }}
+                src={BUSD}
+                alt="BUSD"
+              />
+              <span className="text-black dark:text-white">BUSD</span>
             </div>
             <br></br>
 

@@ -120,7 +120,8 @@ const Bonding = () => {
             <b>
               On <font color="#d5de26">BINANCE SMART CHAIN:</font>
             </b>
-            <br></br> BNB, USDT, DAI, TRX, ETH, DOT, XRP, BTCB, USDC, BCH, DOGE
+            <br></br> BNB, BUSD, USDT, DAI, TRX, ETH, DOT, XRP, BTCB, USDC, BCH,
+            DOGE
             <br></br>
             <br></br>
             <b>
