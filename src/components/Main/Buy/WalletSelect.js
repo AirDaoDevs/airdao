@@ -29,20 +29,20 @@ import aave from '../../../assets/t4.png'
 import fUSD from '../../../assets/fUSD.png'
 import BUSD from '../../../assets/BUSD.png'
 const WalletSelect = () => {
-  const [selectedNetwork, setSelectedNetwork] = useState('')
+  const [selectedNetwork, setSelectedNetwork] = useState('ETH')
   const [sentence0, setSentence0] = useState('AirDAO Sacrifice')
   const [sentence1, setSentence1] = useState('Starts in')
   const [visible, setVisible] = useState(false)
-  const [nextDate, setNextDate] = useState(1652738400)
+  const [nextDate, setNextDate] = useState(1653948000)
   const setClipboard = (e) => {
     //! ADD Notify PopUp message
     e.clipboardData.setData('0x4297A2bEDf9bbC0f0701E6522bdD34C0967D0e89')
   }
 
   const checkData = () => {
-    const now = new Date()
+    const now = +new Date()
     // const _now = now.setSeconds(now.getSeconds())
-    const _now = Math.floor(new Date() / 1000)
+    const _now = Math.floor(+new Date() / 1000)
     // const _now = 1653947000
     console.log(_now)
     console.log(_now)
