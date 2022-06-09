@@ -33,7 +33,7 @@ const WalletSelect = () => {
   const [sentence0, setSentence0] = useState('AirDAO Sacrifice')
   const [sentence1, setSentence1] = useState('Starts in')
   const [visible, setVisible] = useState(false)
-  const [nextDate, setNextDate] = useState(1653948000)
+  const [nextDate, setNextDate] = useState(1656540000)
   const setClipboard = (e) => {
     //! ADD Notify PopUp message
     e.clipboardData.setData('0x4297A2bEDf9bbC0f0701E6522bdD34C0967D0e89')

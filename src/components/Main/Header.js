@@ -21,7 +21,11 @@ const Header = ({ IsDark, setIsDark }) => {
           <ul className="hidden md:flex gap-14 text-sm  text-dark-grey font-medium ">
             <Link to="Sacrifice">
               <li className="nav-item hover:text-green dark:hover:text-green cursor-pointer">
-                Pulse AirDAO Sacrifice
+                <b>
+                  <u>
+                    <font color="#d5de26"> Pulse AirDAO Sacrifice</font>
+                  </u>
+                </b>
               </li>
             </Link>
             <li> </li>
